@@ -1,3 +1,8 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
 .border {
     border: 2px solid red;
     margin:2px;
@@ -19,11 +24,33 @@
     display: flex;
     list-style: none;
     gap: 20px;
-    align-items: center;
-    
+    align-items: center;  
 }
 
 .top ul li img {
     width: 32px;
+}
 
+.top {
+    background-color: black;
+    color: white;
+    display: flex;
+}
+
+.invert {
+    filter: invert(1);
+}
+
+.right ul  {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    align-items: center;
+    justify-content: end;
+}
+
+.search-flex {
+    display: flex;
+    align-items: center;
+    gap: 10px;
 }
