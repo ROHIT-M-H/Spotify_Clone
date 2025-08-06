@@ -1,0 +1,29 @@
+.border {
+    border: 2px solid red;
+    margin:2px;
+}
+
+.flex {
+    display: flex;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.items-center {
+    align-items: center;
+}
+
+.top ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    align-items: center;
+    
+}
+
+.top ul li img {
+    width: 32px;
+
+}
