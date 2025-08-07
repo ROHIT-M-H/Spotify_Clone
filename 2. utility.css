@@ -20,21 +20,30 @@
     align-items: center;
 }
 
-.top ul {
-    display: flex;
-    list-style: none;
-    gap: 20px;
-    align-items: center;  
-}
-
-.top ul li img {
-    width: 32px;
-}
-
 .top {
     background-color: black;
     color: white;
     display: flex;
+    align-items: center;
+    padding:8px;
+    height: auto;
+}
+
+.top .left {
+    width: 45%;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.top .right {
+    width: 60%;
+    /* Optional: additional styles */
+}
+
+.home {
+    width: 48px;
+    height: 48px;
 }
 
 .invert {
@@ -47,10 +56,81 @@
     gap: 20px;
     align-items: center;
     justify-content: end;
+    /* width: 100px; */
 }
 
-.search-flex {
+.download-icon {
+    width: 22px;
+    height: 22px;
+    filter: invert(1);
+}
+
+
+.search {
+    justify-content: space-between; 
+    background-color: #1f1f1f;
+    border-radius: 40px;
+    padding: 12px 20px; 
+    width: 100%; 
+    max-width: 600px; 
+}
+
+
+.inputarea {
+    flex: 1; 
+    background-color: transparent;
+    border: none;
+    color: white;
+    padding: 0 10px;
+}
+
+.search-icon,
+.library-icon {
+    width: 24px;
+    height: 24px;
+}
+
+
+.search-icon {
+    width: 20px;
+    height: 20px;
+    display: flex;
+    padding: 1px 3px 2px 0px;
+}
+
+.left {
+    display: flex;
+    align-items:center;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.right {
     display: flex;
     align-items: center;
     gap: 10px;
+    justify-content: end;
 }
+
+.home {
+    width: 150px;
+    height: 60px;
+    /* padding: 10px; */
+    background-color: #1f1f1f;
+    border-radius: 10px;
+}
+
+.home-wrapper {
+    background-color: #1f1f1f;
+    border-radius: 50%;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+}
+
+.logo {
+    margin-left: 25px;
+}
+
