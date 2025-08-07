@@ -1,13 +1,12 @@
 body {
     /* background-color: black;
     color: white; */
-
     
-    .left {
+    .bottom-left {
         width: 25vw;
     }
 
-    .right {
+    .bottom-right {
         width: 75vw;
     }
 }
