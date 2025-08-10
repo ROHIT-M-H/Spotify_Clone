@@ -188,9 +188,10 @@
   height: 20px;
 }
 
-.bottom {
+/* .bottom {
   background-color: #000000;
-}
+  min-height: 100vh;
+} */
 
 .bottom-left {
   border: 2px solid #151515;
@@ -247,7 +248,7 @@
 }
 
 .span3 {
-  margin: 17px 14px;
+  margin: 12px 15px;
   font-size: 13px;
   font-family: Helvetica, Arial, sans-serif;
   font-weight: 600;
@@ -258,7 +259,78 @@
 }
 
 .bottom-left-center-sections {
-  max-height: 330px; 
-  overflow-y: auto; 
-  padding: 10px;
+  max-height: 330px;
+  overflow-y: auto;
+}
+
+.bottom-left-center-bottom {
+  display: flex;
+  font-size: 11px;
+  font-family: "Poppins", "Nunito", sans-serif;
+  gap: 15px;
+  flex-wrap: wrap;
+  padding: 35px 26px;
+}
+
+.bottom-left-center-bottom a {
+  color: grey;
+  text-decoration: none;
+}
+
+.cookies {
+  color: white;
+  text-decoration: none;
+}
+
+.bottom-left-center-bottom > div:nth-last-child(2),
+.bottom-left-center-bottom > div:last-child {
+  flex-basis: 100%; /* forces them onto their own line */
+}
+
+.last {
+  display: inline-flex;
+  justify-content: center;
+  gap: 6px;
+  padding: 8px 16px;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  background: transparent;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.last svg {
+  fill: white; /* Make icon white */
+  width: 16px; /* Control icon size */
+  height: 16px;
+}
+
+.last:hover {
+  border-color: white; /* White border on hover */
+}
+
+.english {
+  font-size: 15px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.bottom-right-left >  a {
+  font-family: "Montserrat", "Helvetica Neue", sans-serif;
+  font-size: 24px;
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: 700;
+}
+
+.bottom-right-left {
+  margin: 25px 35px;
+}
+
+.bottom-right-right {
+  
 }
