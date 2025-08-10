@@ -6,147 +6,151 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Spotify Clone</title>
     <link href="https://fonts.cdnfonts.com/css/helvetica-neue-55" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Anonymous+Pro:ital,wght@0,400;0,700;1,400;1,700&family=Bebas+Neue&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <!-- Poppins -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Nunito -->
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Inter -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="2. style.css">
     <link rel="stylesheet" href="2. utility.css">
 </head>
 
 <body>
-    <div class="top">
-        <div class="left">
-            <div class="logo">
-                <img src="icons/logo.svg" alt="Logo Icon" class="invert">
-            </div>
-
-            <div class="home-wrapper">
-                <img src="icons/home.svg" alt="Home Icon" class=" invert">
-            </div>
-
-            <div class="search flex">
-                <div class="search-icon">
-                    <img src="icons/search.svg" alt="Search Icon" class="invert">
+    <div class="fullbox">
+        <div class="top">
+            <div class="left">
+                <div class="logo">
+                    <img src="icons/logo.svg" alt="Logo Icon" class="invert">
                 </div>
 
-                <input type="text" placeholder="What do you want to play?" class="inputarea">
-
-                <div class="library-icon">
-                    <img src="icons/libraryicon.svg" alt="Library Icon" class="libimg invert">
-                </div>
-            </div>
-
-        </div>
-        <div class="right">
-            <div><button class="premium"><b>Premium</b></button></div>
-            <div><button class="support"><b>Support</b></button></div>
-            <div><button class="download"><b>Download</b></button></div>
-            <div class="line"></div>
-            <div class="icon-wrapper"><img src="icons/download.svg" alt="Download Image" class="download-icon"></div>
-            <div class="install">Install App</div>
-            <div class="signup">Sign up</div>
-            <div class="login">Log in</div>
-        </div>
-    </div>
-
-    <div class="bottom flex">
-        <div class="bottom-left border">
-            <div class="bottom-left-top border">
-                <div>
-                    <div class="content">Your Library</div>
-                </div>
-                <div class="plus-icon">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
-                        <line x1="8" y1="2" x2="8" y2="14" stroke="#b3b3b3" stroke-width="2" stroke-linecap="round" />
-                        <line x1="2" y1="8" x2="14" y2="8" stroke="#b3b3b3" stroke-width="2" stroke-linecap="round" />
-                    </svg>
-                </div>
-            </div>
-
-            <!-- Center Part -->
-            <div class="bottom-left-center">
-                <div class="bottom-left-center-sections">
-                    <section class="bottom-left-center-wrapper">
-                        <div class="bottom-left-center-wrapper-div">
-                            <span class="span-space span1">Create your first playlist</span>
-                            <span class="span-space span2">It's easy, we'll help you</span>
-                        </div>
-                        <span class="span-space span3">Create playlist</span>
-                    </section>
-
-                    <section class="bottom-left-center-wrapper">
-                        <div class="bottom-left-center-wrapper-div">
-                            <span class="span-space span1">Let's find some podcasts to follow</span>
-                            <span class="span-space span2">we'll keep you updated on new episodes</span>
-                        </div>
-                        <span class="span-space span3">Browse podcasts</span>
-                    </section>
+                <div class="home-wrapper">
+                    <img src="icons/home.svg" alt="Home Icon" class=" invert">
                 </div>
 
-                <!-- Footer Section -->
-                <div class="bottom-left-center-bottom">
-                    <div data-testid="left-sidebar-footer">
-                        <div data-testid="left-sidebar-legal-links">
-                            <div>
-                                <div>
-                                    <a href="https://www.spotify.com/in-en/legal/" data-encore-id="textLink" id="">
-                                        <span data-encore-id="type">Legal</span>
-                                    </a>
-                                </div>
-                                <div>
-                                    <a href="https://www.spotify.com/in-en/safetyandprivacy/" data-encore-id="textLink"
-                                        id="">
-                                        <span data-encore-id="type">Safety &amp; Privacy Center</span>
-                                    </a>
-                                </div>
-                                <div>
-                                    <a href="https://www.spotify.com/in-en/legal/privacy-policy/"
-                                        data-encore-id="textLink" id="">
-                                        <span data-encore-id="type">Privacy Policy</span>
-                                    </a>
-                                </div>
-                                <div>
-                                    <a href="https://www.spotify.com/in-en/legal/cookies-policy/"
-                                        data-encore-id="textLink" id="">
-                                        <span data-encore-id="type">Cookies</span>
-                                    </a>
-                                </div>
-                                <div>
-                                    <a href="https://www.spotify.com/in-en/legal/privacy-policy/#s3"
-                                        data-encore-id="textLink" id="">
-                                        <span data-encore-id="type">About Ads</span>
-                                    </a>
-                                </div>
-                                <div>
-                                    <a href="https://www.spotify.com/in-en/accessibility/" data-encore-id="textLink"
-                                        id="">
-                                        <span data-encore-id="type">Accessibility</span>
-                                    </a>
-                                </div>
-                            </div>
-                            <a draggable="false" href="https://www.spotify.com/legal/cookies-policy/" target="_blank"
-                                rel="noopener">
-                                <span data-encore-id="text">Cookies</span>
-                            </a>
-                        </div>
-                        <div>
-                            <button data-testid="language-selection-button" data-encore-id="buttonSecondary"
-                                fdprocessedid="g1tw3e">
-                                <span aria-hidden="true">
-                                    <svg data-encore-id="icon" role="img" aria-hidden="true" viewBox="0 0 16 16"
-                                        style="--encore-icon-height: var(--encore-graphic-size-decorative-smaller); --encore-icon-width: var(--encore-graphic-size-decorative-smaller);">
-                                        <path
-                                            d="M8.152 16H8a8 8 0 1 1 .152 0m-.41-14.202c-.226.273-.463.713-.677 1.323-.369 1.055-.626 2.496-.687 4.129h3.547c-.06-1.633-.318-3.074-.687-4.129-.213-.61-.45-1.05-.676-1.323-.194-.235-.326-.285-.385-.296h-.044c-.055.007-.19.052-.391.296M4.877 7.25c.062-1.771.34-3.386.773-4.624q.148-.427.329-.806a6.51 6.51 0 0 0-4.436 5.43zm-3.334 1.5a6.51 6.51 0 0 0 4.436 5.43 8 8 0 0 1-.33-.806c-.433-1.238-.71-2.853-.772-4.624zm4.835 0c.061 1.633.318 3.074.687 4.129.214.61.451 1.05.677 1.323.202.244.336.29.391.297l.044-.001c.06-.01.19-.061.385-.296.226-.273.463-.713.676-1.323.37-1.055.626-2.496.687-4.129zm5.048 0c-.061 1.771-.339 3.386-.772 4.624q-.123.353-.268.674a6.5 6.5 0 0 0 4.071-5.298zm3.031-1.5a6.51 6.51 0 0 0-4.071-5.298q.145.322.268.674c.433 1.238.711 2.853.772 4.624z">
-                                        </path>
-                                    </svg>
-                                </span>
-                                English
-                            </button>
-                        </div>
+                <div class="search flex">
+                    <div class="search-icon">
+                        <img src="icons/search.svg" alt="Search Icon" class="invert">
                     </div>
 
+                    <input type="text" placeholder="What do you want to play?" class="inputarea">
+
+                    <div class="library-icon">
+                        <img src="icons/libraryicon.svg" alt="Library Icon" class="libimg invert">
+                    </div>
+                </div>
+
+            </div>
+            <div class="right">
+                <div><button class="premium"><b>Premium</b></button></div>
+                <div><button class="support"><b>Support</b></button></div>
+                <div><button class="download"><b>Download</b></button></div>
+                <div class="line"></div>
+                <div class="icon-wrapper"><img src="icons/download.svg" alt="Download Image" class="download-icon">
+                </div>
+                <div class="install">Install App</div>
+                <div class="signup">Sign up</div>
+                <div class="login">Log in</div>
+            </div>
+        </div>
+
+        <div class="bottom flex">
+            <div class="bottom-left border">
+                <div class="bottom-left-top border">
+                    <div>
+                        <div class="content">Your Library</div>
+                    </div>
+                    <div class="plus-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                            <line x1="8" y1="2" x2="8" y2="14" stroke="#b3b3b3" stroke-width="2"
+                                stroke-linecap="round" />
+                            <line x1="2" y1="8" x2="14" y2="8" stroke="#b3b3b3" stroke-width="2"
+                                stroke-linecap="round" />
+                        </svg>
+                    </div>
+                </div>
+
+                <!-- Center Part -->
+                <div class="bottom-left-center">
+                    <div class="bottom-left-center-sections">
+                        <section class="bottom-left-center-wrapper">
+                            <div class="bottom-left-center-wrapper-div">
+                                <span class="span-space span1">Create your first playlist</span>
+                                <span class="span-space span2">It's easy, we'll help you</span>
+                            </div>
+                            <span class="span-space span3">Create playlist</span>
+                        </section>
+
+                        <section class="bottom-left-center-wrapper">
+                            <div class="bottom-left-center-wrapper-div">
+                                <span class="span-space span1">Let's find some podcasts to follow</span>
+                                <span class="span-space span2">we'll keep you updated on new episodes</span>
+                            </div>
+                            <span class="span-space span3">Browse podcasts</span>
+                        </section>
+                    </div>
+
+                    <!-- Footer Section -->
+                    <div class="bottom-left-center-bottom">
+                        <div>
+                            <a href="https://www.spotify.com/in-en/legal/" data-encore-id="textLink"><span
+                                    data-encore-id="type">Legal</span></a>
+                        </div>
+                        <div>
+                            <a href="https://www.spotify.com/in-en/safetyandprivacy/" data-encore-id="textLink"><span
+                                    data-encore-id="type">Safety &amp; Privacy Center</span></a>
+                        </div>
+                        <div>
+                            <a href="https://www.spotify.com/in-en/legal/privacy-policy/"
+                                data-encore-id="textLink"><span data-encore-id="type">Privacy Policy</span></a>
+                        </div>
+                        <div>
+                            <a href="https://www.spotify.com/in-en/legal/cookies-policy/"
+                                data-encore-id="textLink"><span data-encore-id="type">Cookies</span></a>
+                        </div>
+                        <div>
+                            <a href="https://www.spotify.com/in-en/legal/privacy-policy/#s3"
+                                data-encore-id="textLink"><span data-encore-id="type">About Ads</span></a>
+                        </div>
+                        <div>
+                            <a href="https://www.spotify.com/in-en/accessibility/" data-encore-id="textLink"><span
+                                    data-encore-id="type">Accessibility</span></a>
+                        </div>
+                        <div>
+                            <a draggable="false" href="https://www.spotify.com/legal/cookies-policy/" target="_blank"
+                                rel="noopener"><span class="cookies">Cookies</span></a>
+                        </div>
+
+                        <button data-testid="language-selection-button" class="last" data-encore-id="buttonSecondary"
+                            fdprocessedid="g1tw3e"><span aria-hidden="true" class="e-91000-button__icon-wrapper"><svg
+                                    data-encore-id="icon" role="img" aria-hidden="true"
+                                    class="e-91000-icon e-91000-baseline" viewBox="0 0 16 16"
+                                    style="--encore-icon-height: var(--encore-graphic-size-decorative-smaller); --encore-icon-width: var(--encore-graphic-size-decorative-smaller);">
+                                    <path
+                                        d="M8.152 16H8a8 8 0 1 1 .152 0m-.41-14.202c-.226.273-.463.713-.677 1.323-.369 1.055-.626 2.496-.687 4.129h3.547c-.06-1.633-.318-3.074-.687-4.129-.213-.61-.45-1.05-.676-1.323-.194-.235-.326-.285-.385-.296h-.044c-.055.007-.19.052-.391.296M4.877 7.25c.062-1.771.34-3.386.773-4.624q.148-.427.329-.806a6.51 6.51 0 0 0-4.436 5.43zm-3.334 1.5a6.51 6.51 0 0 0 4.436 5.43 8 8 0 0 1-.33-.806c-.433-1.238-.71-2.853-.772-4.624zm4.835 0c.061 1.633.318 3.074.687 4.129.214.61.451 1.05.677 1.323.202.244.336.29.391.297l.044-.001c.06-.01.19-.061.385-.296.226-.273.463-.713.676-1.323.37-1.055.626-2.496.687-4.129zm5.048 0c-.061 1.771-.339 3.386-.772 4.624q-.123.353-.268.674a6.5 6.5 0 0 0 4.071-5.298zm3.031-1.5a6.51 6.51 0 0 0-4.071-5.298q.145.322.268.674c.433 1.238.711 2.853.772 4.624z">
+                                    </path>
+                                </svg></span>
+                            <div class="english">English</div>
+                        </button>
+                    </div>
                 </div>
             </div>
-            <div class="bottom-left-bottom"></div>
+            <div class="bottom-right border">
+                <div class="header">
+                    <div class="bottom-right-left"><a href="#">Trending songs</a></div>
+                    <div class="bottom-right-right"><a href="#">show all</a></div>
+                </div>
+            </div>
         </div>
-        <div class="bottom-right border">Lorem ipsum dolor sit.</div>
     </div>
 </body>
 
