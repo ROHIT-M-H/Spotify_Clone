@@ -358,7 +358,8 @@
   height: 172px;
 }
 .container {
-  border: 3px solid red;
+  /* border: 3px solid red;  */
+  background-color: #121212;
   padding: 10px;
   width: 175px;
 }
@@ -368,28 +369,18 @@
   object-fit: contain;
 }
 
-.text a {
-  text-decoration: none;
-  color: white;
-  font-family: "Montserrat", "Helvetica Neue", sans-serif;
-  font-weight: 500;
+.text h2 {
+  line-height: 0.9;
 }
 
-.titlename {
+.titlename, .subtitle {
   font-size: 16px;
+  font-weight: 450;
+  font-family: "Montserrat", "Helvetica Neue", sans-serif;
 }
 
-.artists {
+.artists  a  {
+  text-decoration: none;
   font-size: 14px;
   color: #b3b3b3;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  display: block;
-  max-width: 100%;
-}
-
-.artists span {
-  display: inline-block;      /* Ensures it behaves as a unit */
-  white-space: nowrap;
 }
